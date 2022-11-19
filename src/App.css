@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box1{
+  /* border: 3px solid green; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 50%; */
+  text-align: center;
+  /* padding: 10px; */
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+
+  /* background-size: 100% 100%; */
+  /* max-height:100vh;  */
+  height: 100vh;
+}
+
+.box2{
+  /* padding-top: 155px; */
+  /* border: 1px solid red; */
+  
+  margin-bottom: 68px;
+}
+.box2 h1{
+  /* font-family: 'Aref Ruqaa Ink', serif !important; */
+  font-family: 'Nabla', cursive;
+  /* font-family: 'Reem Kufi Ink', sans-serif; */
+  /* font-family: 'Blaka Ink', cursive; */
+  font-size: 65px;
+}
+.box3{
+  /* box-sizing: border-box; */
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 5px;
+  background-color: #282c34;
+  color: white;
+  /* margin-top: 120px; */
+  /* align-items: center; */
+}
+.box3 p{
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.temp{
+  font-size: 100px !important;
+  /* font-weight: bold; */
+}
+.ic1{
+  margin-right: 170px;
+  font-size: 40px;
+  color: yellow;
+}
+.ic2{
+  /* margin-left: 50px; */
+  font-size: 30px;
+  color: red;
+}
+
+.ic3{
+  margin-right: 170px;
+  font-size: 35px;
+  color: aqua;
+}
+.ic4{
+  font-size: 32px;
+}
+.ic5{
+  font-size: 32px;
+  margin-right: 158px;
+  font-size: 35px;
+  color: aqua;
+
+}
+.ic6{
+  font-size: 32px;
+  color: wheat;
+
+}
+.butn{
+  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%) !important;
+  border: none;
+  transition: 0.5s;
+}
+.butn:hover{
+  background: linear-gradient(90deg, #fcd98d 0%, rgb(132, 176, 251) 100%) !important;
+  /* background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%); */
+  color: rgb(68, 66, 66) !important;
+  transform: translateY(4px);
+}
+.inpu{
+  border-radius: 30px;
+  background-color: black !important;
+  color: white !important;
+  border: none;
+}
+.err{
+  height: 350px;
+  width: 350px;
+}
